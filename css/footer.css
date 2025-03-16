@@ -1,0 +1,9 @@
+.footer-bg {
+    background: #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+    padding-inline: 1.25rem;
+    padding-block: 1.5rem;
+}

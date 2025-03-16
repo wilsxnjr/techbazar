@@ -44,7 +44,12 @@
 .texto-3 {
   line-height: 1.7;
   color: #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.texto-4 {
+  line-height: 1.7;
+  color: #fff;
 }
 
 .item-texto {

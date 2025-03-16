@@ -9,6 +9,10 @@
   padding-inline: 1.25rem;
 }
 
+.localizacao {
+  margin-bottom: 2rem;
+}
+
 .links {
   display: flex;
   gap: 1rem;
@@ -22,7 +26,7 @@
 
 form {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .contacto-area {
@@ -43,11 +47,13 @@ label {
 }
 
 .button-submit {
-  padding: 0.6rem 1.2rem;
+  padding: 0.7rem 1.2rem;
   font-size: 1rem;
   background: #f72585;
   border: none;
   cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 500;
 }
 
 @media (max-width: 800px) {
