@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>TechBazar</title>
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <a href="./">
+          <img src="./assets/techbazar.svg" alt="TechBazar" />
+        </a>
+        <nav class="nav">
+          <ul class="header-menu">
+            <li><a href="./">Home</a></li>
+            <li><a href="./">Produtos</a></li>
+            <li><a href="./">Contacto</a></li>
+          </ul>
+          <button class="button-menu">
+            <img src="./assets/menu.svg" alt="menu" />
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="intro-bg">
+      <div class="intro container">
+        <div class="intro-content">
+          <h1 class="titulo-1">
+            Os melhores produtos tecnológicos<span>.</span>
+          </h1>
+          <p class="texto-1">
+            A tecnologia avança a cada dia, trazendo inovação e praticidade.
+            Descubra os melhores produtos que estão revolucionando. Techbazar, o
+            bazar da tecnologia.
+          </p>
+          <a href="./" class="button-1">Saber mais</a>
+        </div>
+        <div class="intro-slider">
+          <div class="slider-imgs">
+            <img src="./assets/foto-2.png" alt="" />
+          </div>
+          <!-- <button class="prev"><img src="./assets/arrow-left.svg"></button>
+          <button class="next"><img src="./assets/arrow-right.svg"></button> -->
+        </div>
+      </div>
+    </main>
+    <section class="produtos-bg">
+      <div class="produtos container">
+        <h2 class="titulo-2">Nossos <span>Produtos</span></h2>
+        <p class="texto-2">Alguns dos produtos disponiveis</p>
+        <div class="produtos-avaible">
+          <div class="produto">
+            <div class="padding"><img src="./assets/foto-3.png" /></div>
+            <p class="item-texto">Airpods</p>
+          </div>
+          <div class="produto">
+            <div><img src="./assets/foto-2.png" /></div>
+            <p class="item-texto">Headphones</p>
+          </div>
+          <div class="produto">
+            <div class="padding"><img src="./assets/foto-5.png" /></div>
+            <p class="item-texto">Celulares</p>
+          </div>
+          <div class="produto">
+            <div><img src="./assets/foto-4.png" /></div>
+            <p class="item-texto">Laptops</p>
+          </div>
+          <div class="produto">
+            <div><img src="./assets/foto-6.png" /></div>
+            <p class="item-texto">Impressoras</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto-bg">
+      <div class="contacto container">
+        <div class="contacto-area">
+          <div class="localizacao">
+            <h3 class="titulo-3">Localização</h3>
+            <p class="texto-3">Maputo, Moçambique</p>
+          </div>
+          <div class="social-media">
+            <h3 class="titulo-3">Siga-nos</h3>
+            <div class="links">
+              <a href="./"><img src="./assets/instagram.svg" alt="" /></a>
+              <a href="./"><img src="./assets/facebook.svg" alt="" /></a>
+              <a href="./"><img src="./assets/twitter.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-area sombra">
+          <h3 class="titulo-3">Formulário de contacto</h3>
+          <form class="form">
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required placeholder="Insira seu nome" />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Insira seu email" />
+            </div>
+
+            <div>
+              <label for="mensagem">Mensagem:</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                required
+                placeholder="Insira a sua mensagem"
+              ></textarea>
+            </div>
+
+            <button class="button-submit" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

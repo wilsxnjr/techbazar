@@ -1,0 +1,45 @@
+.header-bg {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.header-menu {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.header-menu a {
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.button-menu {
+  background: none;
+  border: none;
+  display: none;
+  & img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    display: none;
+  }
+  .button-menu {
+    display: block;
+  }
+}

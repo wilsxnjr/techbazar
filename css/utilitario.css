@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.button-1 {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  background: #f72585;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  justify-self: start;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .button-1 {
+    padding: 12px 24px;
+  }
+}

@@ -1,0 +1,58 @@
+.contacto-bg {
+  background: #000;
+}
+
+.contacto {
+  padding-block: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 1.25rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  & a {
+    display: inline-block;
+  }
+  & img {
+    width: 30px;
+  }
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contacto-area {
+  padding-block: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  border: none;
+  padding: 0.65rem;
+  font-size: 1rem;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.button-submit {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #f72585;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .contacto {
+    grid-template-columns: 1fr;
+    padding-block: 2rem;
+  }
+}
